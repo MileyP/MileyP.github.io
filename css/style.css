@@ -8,8 +8,20 @@ body, body h1, body button {
   padding: 1rem 3rem;
 }
 
-h1 {
+.purple {
   color: rgb(116, 66, 143);
+}
+
+.purple-bg {
+  background-color: rgb(116, 66, 143);
+}
+
+.green {
+  color: rgb(85, 205, 90);
+}
+
+.green-bg {
+  background-color: rgb(85, 205, 90);
 }
 
 
@@ -45,10 +57,13 @@ button {
   padding-bottom: 2rem;
   width: 100%;
   color: white;
-  background: rgb(116, 66, 143);
   border-radius: 1rem;
 }
 
-button:active {
-  background: rgb(78, 43, 97)
+button.purple-bg:active {
+  background: rgb(78, 43, 97);
+}
+
+button.green-bg:active {
+  background: rgb(54, 134, 57);
 }
